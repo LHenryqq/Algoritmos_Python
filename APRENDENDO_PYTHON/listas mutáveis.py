@@ -39,3 +39,7 @@ print(lista)
 a = [81, 82, 83]
 a.append(5)
 print (a)
+
+a = [88, 81, 82, 83]
+a.sort()
+print(a)
