@@ -34,3 +34,8 @@ print(a)
 lista = ["a", "b","c", "d","e","f"]
 del lista[1:5]
 print(lista)
+
+#adicionar elemento
+a = [81, 82, 83]
+a.append(5)
+print (a)
