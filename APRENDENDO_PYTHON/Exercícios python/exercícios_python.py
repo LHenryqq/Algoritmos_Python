@@ -9,4 +9,8 @@ print("A soma dos números é: ", sum(lista))
 lista = [1,2,1,5,6,4,3,1]
 print(lista.count(1))
 
-#
+#Faça um programa que receba um vetor de 5 frutas, mostre-os. Depois, substitua o segundo elemento do vetor por Laranja
+lista = ["abacaxi", "maçã", "uva", "pêra", "goiaba"]
+print(lista)
+lista[1:2] = ["Laranja"]
+print(lista)
