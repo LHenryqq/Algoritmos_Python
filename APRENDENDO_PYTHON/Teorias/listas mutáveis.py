@@ -69,3 +69,8 @@ print(a)
 
 a.pop(0)
 print(a)
+
+#adicionar mais de um elemento (.extend())
+lista = [1, 2, 3]
+lista.extend((4,5))
+print (lista)
