@@ -15,3 +15,4 @@ mediaP1 = (sum(notasP1) / len(notasP1))
 mediaP2 = (sum(notasP2) / len(notasP2))
 print("A média da turma na prova 1 é: ", mediaP1)
 print("A média da turma na prova 2 é: ", mediaP2)
+
