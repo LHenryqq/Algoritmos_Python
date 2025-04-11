@@ -26,14 +26,14 @@
 #     print("Reprovado")
 
 #Calcular reajuste salário de funcionário
-salario = float(input("Digite o valor do salário: R$"))
-if salario < 500:
-    reajuste = salario*(15/100)
-elif salario >= 500 and salario < 1000:
-    reajuste = salario*(10/100)
-else:
-    reajuste = salario*(5/100)
-salario_atual = salario + reajuste
-print("O Salário inicial era: R$", salario)
-print("A correção que deve ser feita é de: R$", reajuste)
-print("O Salário com o reajuste será de: R$", salario_atual)
+# salario = float(input("Digite o valor do salário: R$"))
+# if salario < 500:
+#     reajuste = salario*(15/100)
+# elif salario >= 500 and salario < 1000:
+#     reajuste = salario*(10/100)
+# else:
+#     reajuste = salario*(5/100)
+# salario_atual = salario + reajuste
+# print("O Salário inicial era: R$", salario)
+# print("A correção que deve ser feita é de: R$", reajuste)
+# print("O Salário com o reajuste será de: R$", salario_atual)
