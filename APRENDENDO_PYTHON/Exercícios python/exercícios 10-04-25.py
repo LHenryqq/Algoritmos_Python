@@ -1,22 +1,22 @@
-#Verificar letra
-# sexo = str(input("Digite a letra do seu sexo: ")).upper()
-# if sexo == "F":
-#     print("Feminino")
-# elif sexo == "M":
-#     print("Masculino")
-# elif sexo == "O":
-#     print("Outros")
-# else:
-#     print("Sexo inválido")
+# #Verificar letra
+# # sexo = str(input("Digite a letra do seu sexo: ")).upper()
+# # if sexo == "F":
+# #     print("Feminino")
+# # elif sexo == "M":
+# #     print("Masculino")
+# # elif sexo == "O":
+# #     print("Outros")
+# # else:
+# #     print("Sexo inválido")
 
-#Verificar se é letra ou consoante
-# letra = str(input("Digite uma letra: ")).upper()
-# if letra == "A" or letra == "E" or letra == "I" or letra == "O" or letra == "U":
-#     print("Vogal")
-# else:
-#     print("Consoante")
+# #Verificar se é letra ou consoante
+# # letra = str(input("Digite uma letra: ")).upper()
+# # if letra == "A" or letra == "E" or letra == "I" or letra == "O" or letra == "U":
+# #     print("Vogal")
+# # else:
+# #     print("Consoante")
 
-#Lê 3 números e mostre o maior
+# #Lê 3 números e mostre o maior
 # num_1 = input("Digite um número: ")
 # num_2 = input("Digite mais um número: ")
 # num_3 = input("Digite mais um número: ")
@@ -53,7 +53,7 @@
 # else:
 #     print("Compre o que você mais gostou")
 
-#leir números e colocá-los em ordem decrescente
+# #leir números e colocá-los em ordem decrescente
 # num_1 = float(input("Digite um número: "))
 # num_2 = float(input("Digite mais um número: "))
 # num_3 = float(input("Digite mais um número: "))
@@ -71,21 +71,21 @@
 #     print(num_3, ",", num_2, ",", num_1)
 
 
-salario = float(input("Digite o valor do salário: R$"))
-if salario <= 280.55:
-    porcent = 22.51
-    reajuste = salario*(porcent / 100)
-elif salario >= 280.56 and salario <= 709.72:
-    porcent = 15.39
-    reajuste = salario*(porcent / 100)
-elif salario >= 709.73 and salario <= 1501.33:
-    porcent = 10.97
-    reajuste = salario*(porcent / 100)
-else:
-    porcent = 5.19
-    reajuste = salario*(porcent / 100)
-salario_atual = salario + reajuste
-print("O Salário inicial era: R$", salario)
-print("A porcentagem do reajuste é:", porcent,"%")
-print("A correção que deve ser feita é de: R$%.2f"%reajuste)
-print("O Salário com o reajuste será de: R$%.2f"%salario_atual)
+# salario = float(input("Digite o valor do salário: R$"))
+# if salario <= 280.55:
+#     porcent = 22.51
+#     reajuste = salario*(porcent / 100)
+# elif salario >= 280.56 and salario <= 709.72:
+#     porcent = 15.39
+#     reajuste = salario*(porcent / 100)
+# elif salario >= 709.73 and salario <= 1501.33:
+#     porcent = 10.97
+#     reajuste = salario*(porcent / 100)
+# else:
+#     porcent = 5.19
+#     reajuste = salario*(porcent / 100)
+# salario_atual = salario + reajuste
+# print("O Salário inicial era: R$", salario)
+# print("A porcentagem do reajuste é:", porcent,"%")
+# print("A correção que deve ser feita é de: R$%.2f"%reajuste)
+# print("O Salário com o reajuste será de: R$%.2f"%salario_atual)
