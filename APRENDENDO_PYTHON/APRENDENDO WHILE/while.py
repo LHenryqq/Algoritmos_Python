@@ -90,15 +90,15 @@ while True:
             break
     while True:
         sexo = input("Digite seu sexo: F(Feminino), M(masculino), O(Outro): ").upper()
-        if sexo != "F" or sexo != "M" or sexo != "O":
+        if sexo != "F" and sexo != "M" and sexo != "O":
             print("Erro. Digite um sexo válido.")
         else:
             break
     while True:
         ec = input("Digite seu Estado Civil: S(Solteiro), C(Casado), V(Viúvo(a)), D(Divorciado(a)): ").upper()
-        if ec != "S" or ec != "C" or ec != "V" or ec != "D":
+        if ec != "S" and ec != "C" and ec != "V" and ec != "D":
             print("Erro. Digite um Estado Civil Válido.")
         else:
-            break
-        print("Cadastro Concluído.")
+            print("Cadastro Concluído.")
+        break
     break
