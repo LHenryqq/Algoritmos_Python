@@ -26,3 +26,15 @@ while True:
             quantidade = int(input("Quantidade de entrada: "))
             caneta = caneta + quantidade
             print("Atualizada quantidade em estoque, estoque atual é:", caneta)
+        elif codigo == "30":
+            quantidade = int(input("Quantidade de entrada: "))
+            lapis = lapis + quantidade
+            print("Atualizada quantidade em estoque, estoque atual é:", lapis)
+        elif codigo == "40":
+            quantidade = int(input("Quantidade de entrada: "))
+            borracha = borracha + quantidade
+            print("Atualizada quantidade em estoque, estoque atual é:", borracha)
+        elif codigo == "50":
+            quantidade = int(input("Quantidade de entrada: "))
+            regua = regua + quantidade
+            print("Atualizada quantidade em estoque, estoque atual é:", regua)
