@@ -104,37 +104,43 @@
 #     break
 
 #URNA ELETRÔNICA
-while True:
-    cand1 = 0
-    cand2 = 0
-    cand3 = 0
-    cand4 = 0
-    nulo = 0
-    branco = 0
-    while True:
-        voto = input("Digite o número que deseja votar: ")
+# cand1 = 0
+# cand2 = 0
+# cand3 = 0
+# cand4 = 0
+# nulo = 0
+# branco = 0
+# while True:
+#     voto = input("Digite o número que deseja votar: ")
 
-        if voto == "1":
-            cand1 = cand1 + 1
-        elif voto == "2":
-            cand2 = cand2 + 1
-        elif voto == "3":
-            cand3 = cand3 + 1
-        elif voto == "4":
-            cand4 = cand4 + 1
-        elif voto == "5":
-            nulo = nulo + 1
-        elif voto == "6":
-            branco = branco + 1
-        elif voto == "0":
-            break
-        else:
-            print("Digite um número válido.")
-    print("Resultado: ")
-    print("Votos Candidato 1: ", cand1)
-    print("Votos Candidato 2: ", cand2)
-    print("Votos Candidato 3: ", cand3)
-    print("Votos Candidato 4: ", cand4)
-    print("Votos Nulos: ", nulo)
-    print("Votos em branco: ", branco)
-    break
+#     if voto == "1":
+#         cand1 = cand1 + 1
+#     elif voto == "2":
+#         cand2 = cand2 + 1
+#     elif voto == "3":
+#         cand3 = cand3 + 1
+#     elif voto == "4":
+#         cand4 = cand4 + 1
+#     elif voto == "":
+#         branco = branco + 1
+#     elif voto == "0":
+#         break
+#     else:
+#         nulo = nulo+1
+
+# if cand1>cand2 and cand1>cand3 and cand1>cand4:
+#     vencedor = "Candidato 1 é o vencedor"
+# elif cand2>cand1 and cand2>cand3 and cand2>cand4:
+#     vencedor = "Candidato 2 é o vencedor"
+# elif cand3>cand1 and cand3>cand2 and cand3>cand4:
+#     vencedor = "Candidato 3 é o vencedor"
+# elif cand4>cand1 and cand4>cand2 and cand4>cand3:
+#     vencedor = "Candidato 4 é o vencedor"
+# print("Resultado: ")
+# print("Votos Candidato 1: ", cand1)
+# print("Votos Candidato 2: ", cand2)
+# print("Votos Candidato 3: ", cand3)
+# print("Votos Candidato 4: ", cand4)
+# print("Votos Nulos: ", nulo)
+# print("Votos em branco: ", branco)
+# print("O vencedor das eleições é o:", vencedor)
