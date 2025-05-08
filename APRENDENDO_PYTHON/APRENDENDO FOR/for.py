@@ -44,3 +44,9 @@
 # times = ["Palmeiras","Flamengo","São Paulo"]
 # for i in range(len(times)):
 #     print(f"{i+1}- {times[i]}")
+
+print("Digite dois números e descubra os números inteiros do intervalo entre eles")
+inicio = int(input("Início do intervalo: "))
+fim = int(input("Digite o número final: "))
+for i in range(inicio, fim+1):
+    print(i)
