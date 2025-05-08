@@ -31,7 +31,7 @@
 #         print(i,j)
 
 #Tabuada
-for i in range(2,200,1):
+for i in range(1,11,1):
     print("_______________")
     for j in range(1,11):
         print(i,"x",j,"=",i*j)
