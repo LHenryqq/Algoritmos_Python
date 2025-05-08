@@ -1,6 +1,6 @@
-# # frutas = ["maçã","banana","laranja","manga","pêra"]
-# # for i in frutas:
-# #     print(i)
+# frutas = ["maçã","banana","laranja","manga","pêra"]
+# for i in frutas:
+#     print(i)
 # frutas = "banana"
 # for i in frutas:
 #     print(i)
@@ -31,7 +31,16 @@
 #         print(i,j)
 
 #Tabuada
-for i in range(1,11,1):
-    print("_______________")
-    for j in range(1,11):
-        print(i,"x",j,"=",i*j)
+# for i in range(1,11,1):
+#     print("_______________")
+#     for j in range(1,11):
+#         print(i,"x",j,"=",i*j)
+
+#imprime apenas números ímpares de 1 a 50
+# for i in range(1,50,2):
+#     print(i)
+
+#printar times enumerados
+# times = ["Palmeiras","Flamengo","São Paulo"]
+# for i in range(len(times)):
+#     print(f"{i+1}- {times[i]}")
