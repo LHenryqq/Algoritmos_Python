@@ -45,11 +45,24 @@
 # for i in range(len(times)):
 #     print(f"{i+1}- {times[i]}")
 
-print("Digite dois números e descubra os números inteiros do intervalo entre eles")
-inicio = int(input("Início do intervalo: "))
-fim = int(input("Digite o número final: "))
-intervalo = int(input("Qual o intervalo entre números: "))
-for i in range(inicio+intervalo, fim, intervalo):
-    print(i)
-    soma = sum(range(inicio+intervalo, fim, intervalo))
-print("O resultado da soma dos números do intervalo é:",soma)
+# print("Digite dois números e descubra os números inteiros do intervalo entre eles")
+# inicio = int(input("Início do intervalo: "))
+# fim = int(input("Digite o número final: "))
+# intervalo = int(input("Qual o intervalo entre números: "))
+# for i in range(inicio+intervalo, fim, intervalo):
+#     print(i)
+#     soma = sum(range(inicio+intervalo, fim, intervalo))
+# print("O resultado da soma dos números do intervalo é:",soma)
+
+# for i in range(1,21):
+#     print(i,end=" ",)
+
+#Somar números
+soma=0
+acumulador = 0
+for i in range(5):
+    num1 = int(input("Digite um valor: "))
+    soma = soma + num1 #acumulador  
+    acumulador = acumulador + 1
+media = soma / acumulador
+print("A média é: ", media)
