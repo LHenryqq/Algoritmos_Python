@@ -48,5 +48,8 @@
 print("Digite dois números e descubra os números inteiros do intervalo entre eles")
 inicio = int(input("Início do intervalo: "))
 fim = int(input("Digite o número final: "))
-for i in range(inicio, fim+1):
+intervalo = int(input("Qual o intervalo entre números: "))
+for i in range(inicio+intervalo, fim, intervalo):
     print(i)
+    soma = sum(range(inicio+intervalo, fim, intervalo))
+print("O resultado da soma dos números do intervalo é:",soma)
