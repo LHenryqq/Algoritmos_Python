@@ -58,11 +58,30 @@
 #     print(i,end=" ",)
 
 #Somar números
-soma=0
+# soma=0
+# acumulador = 0
+# for i in range(5):
+#     num1 = int(input("Digite um valor: "))
+#     soma = soma + num1 #acumulador  
+#     acumulador = acumulador + 1
+# media = soma / acumulador
+# print("A média é: ", media)
+
+#N NÚMEROS, SOMA DOS NÚMEROS, EXIBE O MAIOR E O MENOR
+maior = float("-inf")
+menor = float("inf")
+n = int(input("Quantidade de números na conta:"))
+soma = 0
 acumulador = 0
-for i in range(5):
-    num1 = int(input("Digite um valor: "))
-    soma = soma + num1 #acumulador  
-    acumulador = acumulador + 1
-media = soma / acumulador
-print("A média é: ", media)
+for i in range(n):
+    num = int(input("Digite um valor: "))
+    if num < 0:
+        print("O número deve ser positivo.")
+    soma = soma + num 
+    if num >= maior:
+        maior = num
+    if num <= menor:
+        menor = num
+print(f"O maior número é: {maior}")
+print(f"O menor número é: {menor}")
+print(f"A soma dos números é: {soma}")
