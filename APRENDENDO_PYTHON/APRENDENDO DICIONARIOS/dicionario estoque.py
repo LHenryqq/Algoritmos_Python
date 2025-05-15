@@ -1,0 +1,30 @@
+estoque = {
+    "arroz": 50,           "feijão": 40,           "macarrão": 60,        "açúcar": 35,
+    "sal": 45,             "óleo": 25,             "leite": 30,           "café": 20,
+    "farinha": 40,         "biscoito": 55,         "achocolatado": 18,    "milho": 22,
+    "ervilha": 15,         "atum": 10,             "sardinha": 12,        "molho de tomate": 33,
+    "ketchup": 14,         "mostarda": 17,         "maionese": 19,        "vinagre": 11,
+    "refrigerante": 36,    "água mineral": 70,     "suco": 25,            "cerveja": 45,
+    "whisky": 5,           "vodka": 8,             "sabão em pó": 28,     "sabão líquido": 24,
+    "amaciante": 26,       "detergente": 32,       "desinfetante": 20,    "esponja": 50,
+    "vassoura": 15,        "rodo": 10,             "pano de chão": 30,    "balde": 9,
+    "papel higiênico": 100,"papel toalha": 45,     "guardanapo": 38,      "alumínio": 13,
+    "saco de lixo": 50,    "escova de dente": 40,  "creme dental": 33,    "shampoo": 29,
+    "condicionador": 27,   "sabonete": 60,         "desodorante": 31,     "absorvente": 36,
+    "fralda": 15,          "algodão": 17,          "cotonete": 19,        "lâmina de barbear": 20,
+    "isqueiro": 22,        "pilha": 34,            "lampada": 23,         "fio dental": 14,
+    "escova de cabelo": 16,"pente": 18,            "tesoura": 12,         "adesivo": 10,
+    "cloro": 25,           "limpa vidro": 11,      "lustra móveis": 9,    "desentupidor": 7,
+    "colher": 40,          "garfo": 40,            "faca": 40,            "prato": 30,
+    "copo": 50,            "panela": 12,           "frigideira": 14,      "espátula": 20,
+    "forma": 10,           "tupperware": 18,       "isqueiro": 10,        "vela": 15,
+    "fósforo": 22,         "pregador": 17,         "corda": 13,           "linha": 9,
+    "agulha": 10,          "botão": 12,            "zípper": 11,          "fio elétrico": 6,
+    "tomada": 8,           "interruptor": 9,       "bateria": 10,         "carregador": 5,
+    "fone de ouvido": 7,   "mouse": 6,             "teclado": 4,          "pendrive": 9,
+    "caderno": 30,         "caneta": 80,           "lápis": 60,           "borracha": 45,
+    "apontador": 28,       "régua": 20,            "cola": 26,            "tesoura escolar": 18,
+    "mochila": 10,         "estojo": 15,           "livro": 22,           "papel sulfite": 70
+}
+produto = input("Digite o nome do produto que deseja verificar: ").lower()
+print(f"O estoque de {produto} é {estoque.get(produto, "Não disponível")}")
