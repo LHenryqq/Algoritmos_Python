@@ -1,4 +1,5 @@
 #MENU
+passageiros = {}
 while True:
     print("Pressione '1' para Cadastros \nPressione '2' para Relatórios \nPressione '3' para Fechar o programa.")
     try:
@@ -23,6 +24,7 @@ while True:
                 except ValueError:
                     print("Digite apenas números.")
                 endereco = input("Endereço: ")
+                passageiros["Nome: "] = [nome]
                 break
             elif cadastro == 2:
                 print("Cadastro de Passagem:")
@@ -44,7 +46,7 @@ while True:
                 except ValueError:
                     print("Digite apenas números.")
                 cor = input("Cor da aeronave: ")
-                passageiros = int(input("Quantidade de passageiros na aeronave: "))
+                quant_passageiros = int(input("Quantidade de passageiros na aeronave: "))
                 break
             elif cadastro == 4:
                 print("Cadastro da Tripulação: ")
@@ -60,11 +62,11 @@ while True:
             else:
                 print("Digite uma opção válida.")
                 break
-    while True:
-        if acao == 2:
+        elif acao == 2:
             #RELATÓRIOS
             print("RELATÓRIOS: ")
             print("Pressione '1' para Relatório dos Clientes \nPressione '2' para Relatório das Passagens \n Pressione '3' para Relatório do Avião \nPressione '4' para Relatório da Tripulação")
             relatorio = int(input("Qual relatório deseja: "))
             if relatorio == 1:
                 print("Relatório de Passageiros")
+                print(passageiros)
